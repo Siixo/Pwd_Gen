@@ -59,7 +59,7 @@ def clicker():
     pwd = Password()
     output = Entry(window, width=50)
     lblVideC= Label(window, text="", bg="#E6E8E6").grid(row=8, column=0)
-    length = 16
+    length = 32
     for i in range (length):
         output.delete(i)
     output.grid(row=9, column=0, columnspan=4)
